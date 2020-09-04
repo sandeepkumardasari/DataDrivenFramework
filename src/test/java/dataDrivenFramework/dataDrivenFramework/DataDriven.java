@@ -41,7 +41,7 @@ public class DataDriven {
     //2D array with object data type
     public Object[][] passData()
     {
-        ExcelDataConfig config=new ExcelDataConfig("C:\\Nextrow\\My Stuff\\Data.xlsx");
+        ExcelDataConfig config=new ExcelDataConfig("C:\\Nextrow\\My Stuff\\workspace\\dataDrivenFramework\\src\\main\\java\\com\\testdata\\testdata.xlsx");
         int rows=config.getRowCount(0);
         
         Object[][] data=new Object[rows][2];
