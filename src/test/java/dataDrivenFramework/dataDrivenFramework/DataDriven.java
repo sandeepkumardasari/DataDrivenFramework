@@ -34,7 +34,7 @@ public class DataDriven {
         driver.findElement(By.id("submit-button")).click();
         //validation
         Assert.assertTrue(driver.getTitle().contains("Sign In"), "User not able to login-Invalid credentials");
-        System.out.println("User able to login-Valid credentials");
+        System.out.println("Invalid Credentials");
     }
     
     @DataProvider(name="loginData")
