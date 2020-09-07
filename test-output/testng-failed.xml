@@ -5,8 +5,9 @@
     <classes>
       <class name="dataDrivenFramework.dataDrivenFramework.ContactUsFormTest">
         <methods>
+          <include name="tearDown"/>
           <include name="run"/>
-          <include name="contactUs"/>
+          <include name="contactUs" invocation-numbers="1"/>
         </methods>
       </class> <!-- dataDrivenFramework.dataDrivenFramework.ContactUsFormTest -->
     </classes>
