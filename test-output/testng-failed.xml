@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="dataDrivenFramework.dataDrivenFramework.ContactUsFormTest">
+      <class name="dataDrivenFramework.dataDrivenFramework.CallToActionComponentTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="run"/>
-          <include name="contactUs" invocation-numbers="1"/>
+          <include name="loginTest"/>
+          <include name="callToAction"/>
         </methods>
-      </class> <!-- dataDrivenFramework.dataDrivenFramework.ContactUsFormTest -->
+      </class> <!-- dataDrivenFramework.dataDrivenFramework.CallToActionComponentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
