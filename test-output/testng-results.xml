@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29164" started-at="2020-09-16T13:48:27Z" finished-at="2020-09-16T13:48:56Z">
+  <suite name="Default suite" duration-ms="40" started-at="2020-09-22T08:20:08Z" finished-at="2020-09-22T08:20:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29164" started-at="2020-09-16T13:48:27Z" finished-at="2020-09-16T13:48:56Z">
-      <class name="dataDrivenFramework.dataDrivenFramework.CtaPublisherTest">
-        <test-method status="PASS" signature="ctaPublisherTest()[pri:0, instance:dataDrivenFramework.dataDrivenFramework.CtaPublisherTest@28d25987]" name="ctaPublisherTest" duration-ms="29139" started-at="2020-09-16T19:18:27Z" finished-at="2020-09-16T19:18:56Z">
+    <test name="Default test" duration-ms="40" started-at="2020-09-22T08:20:08Z" finished-at="2020-09-22T08:20:08Z">
+      <class name="dataDrivenFramework.dataDrivenFramework.AddAssetsTest">
+        <test-method status="SKIP" signature="addAsset(java.lang.String)[pri:0, instance:dataDrivenFramework.dataDrivenFramework.AddAssetsTest@6f7fd0e6]" name="addAsset" duration-ms="0" started-at="2020-09-22T13:50:08Z" data-provider="addAsset" finished-at="2020-09-22T13:50:08Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+	at dataDrivenFramework.dataDrivenFramework.ExcelDataConfig.getRowCount(ExcelDataConfig.java:52)
+	at dataDrivenFramework.dataDrivenFramework.AddAssetsTest.passData(AddAssetsTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ctaPublisherTest -->
-      </class> <!-- dataDrivenFramework.dataDrivenFramework.CtaPublisherTest -->
+        </test-method> <!-- addAsset -->
+      </class> <!-- dataDrivenFramework.dataDrivenFramework.AddAssetsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="dataDrivenFramework.dataDrivenFramework.CallToActionComponentTest">
+      <class name="dataDrivenFramework.dataDrivenFramework.AddAssetsTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="callToAction"/>
+          <include name="addAsset"/>
+          <include name="tearDown"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- dataDrivenFramework.dataDrivenFramework.CallToActionComponentTest -->
+      </class> <!-- dataDrivenFramework.dataDrivenFramework.AddAssetsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
